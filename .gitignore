@@ -1,0 +1,16 @@
+# datasets and large files
+datasets/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# tooling
+.boost/
+.DS_Store

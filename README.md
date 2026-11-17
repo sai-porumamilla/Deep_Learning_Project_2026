@@ -276,7 +276,7 @@ Agreed interface between data and model code. **Do not change without telling ea
 - Scaling: `L = L / 50 - 1`, `ab = ab / 110` (both in [-1, 1])
 - Shared helper: `lab_to_rgb(L, ab)` converts model output back to an RGB image.
 - **Fixed sample set:** 10 images (5 degraded FFHQ faces, 5 real daguerreotypes). Every experiment saves its outputs on these to `samples/<experiment_name>/`.
-- **Experiment log:** a shared spreadsheet with experiment name, config, date, metrics, and notes.
+- **Experiment log:** `experiments.csv` with experiment name, config, date, metrics, and notes.
 
 ---
 
@@ -287,10 +287,10 @@ Agreed interface between data and model code. **Do not change without telling ea
 
 ### Shared setup (both)
 
-- [ ] Create repo with the structure above
-- [ ] Agree on the [data contract](#data-contract)
+- [x] Create repo with the structure above
+- [x] Agree on the [data contract](#data-contract)
 - [ ] Choose the fixed sample set
-- [ ] Create the shared experiment log
+- [x] Create the shared experiment log (`experiments.csv`)
 
 ### Person A: Data, film simulation, evaluation
 
