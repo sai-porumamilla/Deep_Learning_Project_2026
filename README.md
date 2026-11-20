@@ -296,7 +296,7 @@ Agreed interface between data and model code. **Do not change without telling ea
 
 **Phase 1: Baseline data**
 
-- [ ] **A1. Get FFHQ.** Download, resize to 256×256, split into train / val / test.
+- [x] **A1. Get FFHQ.** Download, resize to 256×256, split into train / val / test.
   *Done when:* folders and split files are available to both.
 - [ ] **A2. Dataloader.** `PortraitDataset` (load RGB, random flip, convert to Lab, normalize) and `lab_to_rgb()`.
   *Done when:* B can iterate batches, and an RGB → Lab → RGB round-trip looks identical to the original.

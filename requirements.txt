@@ -2,3 +2,5 @@ numpy
 pillow
 pyarrow
 huggingface_hub
+torch
+kornia
